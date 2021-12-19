@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'MoscowSans'; 
+	src: url("../fonts/Moscow_Sans.ttf"); 
+}
+
+*{margin: 0;padding: 0;}
+body{margin: 0; font-family: "MoscowSans"; background-color: #fff;}
+a{text-decoration: none;}
+.main-block{
+    background-image: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+.header, .logos, .links-list, .idea, .list-block, .diagramms, .steps-list, .team-list{display: flex;}
+.header{height: 40px; justify-content: space-between; margin: 0px 100px 228px 100px; padding-top: 50px;}
+.logo{margin-right: 35px;}
+.links-list{list-style: none; color: #fff; font-size: 14px; line-height: 17px;}
+.item{margin-left: 30px;}
+.main-title{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    color: #fff;
+}
+.description{
+    margin-top: 42px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #fff;
+}
+.green{color:#A0E720;}
+section{padding: 0 100px;}
+.title{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #202C80;
+    margin-bottom: 50px;
+}
+.text-section{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.idea{margin-bottom: 136px; height: 400px;}
+.text{width: 50%;}
+.img-section{
+    width: 30%;
+    background-image: url("../img/elektroship.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 15px 100px rgba(32, 44, 128, 0.25));
+    margin-left: 125px;
+}
+.img-section .text-section{
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255 255 255);
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+}
+.advantages{margin-bottom: 150px;}
+.list-block, .team-list{list-style: none; justify-content: center;}
+.plus-item{
+    margin-right: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 100px rgba(32, 44, 128, 0.1), 0px 5px 30px rgba(32, 44, 128, 0.05);
+    border-radius: 20px;
+    padding: 34px 29px 25px 38px;
+    width: 350px;
+}
+.plus-item:last-child{margin-right: 0;}
+.plus-title{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.plus-dscript{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+}
+
+.subtitle{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+}
+.features .text-section{margin-bottom: 37px;}
+.ships{
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    height: 650px;
+    margin: 0 auto;
+    max-width: 1240px;
+    margin-bottom: 50px;
+}
+.diagramms{justify-content: space-between;align-items: center; margin-bottom: 90px;}
+.guide, .trafics{margin-bottom: 85px;}
+.content{display: flex; justify-content: space-between; height: 470px;}
+.img-pay{height: 650px; max-width: 780px; margin: 0 auto;}
+.features, .perspective, .team{margin-bottom: 150px;}
+.steps-list{justify-content: space-between; list-style: none; flex-wrap: wrap;}
+.step-item{width: 46%; margin-bottom: 38px; background: #FFFFFF; filter: drop-shadow(0px 5px 30px rgba(32, 44, 128, 0.25)); padding: 25px 20px; }
+.step-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 22px;
+    max-width: 320px;
+}
+.step-descript{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 317px;
+}
+.step-item:nth-child(1){
+    background-image: url("../img/step1.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 0px 30px 30px 0px;
+
+}
+.step-item:nth-child(3){
+    height: 150px;
+    background-image: url("../img/step3.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 0px 30px 30px 0px;
+}
+.step-item:nth-child(1) .step-title, .step-item:nth-child(3) .step-title{color: #42E3B4;}
+.step-item:nth-child(2){
+    background-image: url("../img/step2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 30px 0px 0px 30px;
+    text-align: right;
+}
+.step-item:nth-child(2) .step-title{color:#202C80;}
+.step-item:nth-child(4){
+    background-image: url("../img/step4.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 30px 0px 0px 30px;
+    text-align: right;
+    height: 150px;
+}
+.step-item:nth-child(4) .step-title{color: #A0E720;}
+.step-item:nth-child(2) .step-info, .step-item:nth-child(4) .step-info {float: right;}
+.team-item{
+    width: 400px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 15px 100px rgba(32, 44, 128, 0.25));
+    background-color: #fff;
+    border-radius: 20px;
+    height: 450px;
+    margin-right: 30px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #202C80;
+    padding-top: 32px;
+    position: absolute;
+    padding-left: 20px;
+    bottom: 65px;
+    width: 380px;
+    background-color: rgb(255 255 255);
+}
+.info-profile{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0px 35px 20px;
+    color: #202C80;
+    width: 380px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255 255 255);
+    border-radius: 0 0 20px 20px;
+}
+.team-item:nth-child(1){
+    background-image: url("../img/avatar1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.team-item:nth-child(2){
+    background-image: url("../img/avatar2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.team-item:nth-child(3){
+    background-image: url("../img/avatar3.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.footer{
+    background-image: url("../img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 495px;
+    padding-top: 87px;
+}
+.form{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(65.4px);
+    border-radius: 20px;
+    padding: 40px 32px;
+    max-width: 580px;
+    margin: 0 auto;
+}
+.caption-form{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.form-descript{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
