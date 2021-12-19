@@ -5,7 +5,7 @@
 
 *{margin: 0;padding: 0;}
 body{margin: 0; font-family: "MoscowSans"; background-color: #fff;}
-a{text-decoration: none;}
+a{text-decoration: none; cursor: pointer;}
 .main-block{
     background-image: url("../img/main-bg.png");
     background-repeat: no-repeat;
@@ -258,4 +258,8 @@ line-height: 150%;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
+}
+svg{
+    margin-top: -60px;
+    margin-left: 75px;
 }
