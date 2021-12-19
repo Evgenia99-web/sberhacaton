@@ -217,7 +217,7 @@ line-height: 150%;
     background-position: top center;
     background-size: cover;
     height: 495px;
-    padding-top: 87px;
+    padding-top: 10%;
 }
 .form{
     background: rgba(255, 255, 255, 0.2);
@@ -240,4 +240,22 @@ line-height: 150%;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 15px;
+}
+.input{
+    padding: 17px 24px;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    background: linear-gradient(96.37deg, #4081FF 10.27%, #1C30C0 105.93%);
+    box-shadow: 0.637101px 17.9887px 45px rgba(64, 129, 255, 0.18), -3.75px -3.07px 14.3333px rgba(64, 129, 255, 0.109333), 0.0519119px 1.46575px 3.66667px rgba(64, 129, 255, 0.0706667), inset -14px -5px 12px rgba(28, 48, 192, 0.25), inset 6px 8px 29px #276DF2;
+    border-radius: 70px;
+    padding: 11px 38px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
 }
